@@ -1,0 +1,13 @@
+.content__container {
+  text-align: justify;
+}
+
+.content__container p:not(p:last-child) {
+  margin-bottom: 1rem;
+}
+
+.content__container .content__text-found {
+  background-color: yellow;
+  padding: 0.2rem;
+  border-radius: 0.2rem;
+}

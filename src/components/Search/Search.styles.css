@@ -1,0 +1,21 @@
+.search__container {
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.search__icon {
+  position: absolute;
+  height: 2rem;
+  top: 25%;
+  left: 1rem;
+}
+
+.search__input {
+  width: 100%;
+  outline: none;
+  padding: 1rem 1rem 1rem 3.5rem;
+  font-size: 1.2rem;
+  border-radius: 0.3rem;
+  border: none;
+  box-shadow: 0 0.3rem 0.8rem rgba(0, 0, 0, 0.2);
+}

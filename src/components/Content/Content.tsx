@@ -4,10 +4,9 @@ const Content = () => {
   return (
     <div className="content__container">
       <p>
-        La sinopsis de un libro es un resumen breve de los{" "}
-        <span className="content__text-found">elementos</span> principales de la
-        obra. En ella se destacan los momentos más importantes de la trama, los
-        personajes principales y su desarrollo.
+        La sinopsis de un libro es un resumen breve de los elementos principales
+        de la obra. En ella se destacan los momentos más importantes de la
+        trama, los personajes principales y su desarrollo.
       </p>
       <p>
         La sinopsis de un libro famoso puede ayudar a los lectores a comprender

@@ -11,3 +11,9 @@
   background-color: #fff;
   width: 600px;
 }
+
+@media (max-width: 540px) {
+  .layout__container {
+    width: calc(90% - 1rem);
+  }
+}

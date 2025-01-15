@@ -1,16 +1,15 @@
 import "./Content.styles.css";
 import { Text } from "../../utils/content";
 import useSearchTextContext from "../../context/SearchTextContext/useSearchTextContext";
+import { highlightText } from "./highlightText";
 
 const Content = () => {
   const { searchText } = useSearchTextContext();
 
-  console.log(searchText);
-
   return (
     <div className="content__container">
       {Text.map((paragraph, index) => (
-        <p key={index}>{paragraph}</p>
+        <p key={index}>{highlightText(paragraph, searchText)}</p>
       ))}
     </div>
   );

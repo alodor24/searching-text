@@ -1,7 +1,12 @@
 import "./Content.styles.css";
 import { Text } from "../../assets/content";
+import useSearchTextContext from "../../context/SearchTextContext/useSearchTextContext";
 
 const Content = () => {
+  const { searchText } = useSearchTextContext();
+
+  console.log(searchText);
+
   return (
     <div className="content__container">
       {Text.map((paragraph, index) => (

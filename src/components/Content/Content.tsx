@@ -1,5 +1,5 @@
 import "./Content.styles.css";
-import { Text } from "../../assets/content";
+import { Text } from "../../utils/content";
 import useSearchTextContext from "../../context/SearchTextContext/useSearchTextContext";
 
 const Content = () => {

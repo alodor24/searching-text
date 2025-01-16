@@ -18,11 +18,13 @@ const Search = () => {
         onChange={handleChange}
       />
 
-      {count > 0 && (
-        <span className="search__result">
-          {count > 1 ? `${count} resultados` : `${count} resultado`}
-        </span>
-      )}
+      <div className="search__container_result">
+        {count > 0 && (
+          <span className="search__result">
+            {count > 1 ? `${count} resultados` : `${count} resultado`}
+          </span>
+        )}
+      </div>
     </div>
   );
 };

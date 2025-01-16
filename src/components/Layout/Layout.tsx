@@ -1,3 +1,4 @@
+import Footer from "../Footer";
 import "./Layout.styles.css";
 
 type Props = {
@@ -6,9 +7,13 @@ type Props = {
 
 const Layout: React.FC<Props> = ({ children }) => {
   return (
-    <main className="layout__wrapper">
-      <section className="layout__container">{children}</section>
-    </main>
+    <>
+      <main className="layout__wrapper">
+        <section className="layout__container">{children}</section>
+      </main>
+
+      <Footer />
+    </>
   );
 };
 

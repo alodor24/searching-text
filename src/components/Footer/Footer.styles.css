@@ -1,0 +1,22 @@
+.footer__wrapper {
+  min-height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #212529;
+}
+
+.footer__text {
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.footer__icon {
+  height: 1.3rem;
+  position: relative;
+  top: 0.3rem;
+}
+
+.footer__anchor {
+  color: rgba(255, 255, 255, 0.55);
+  text-decoration: none;
+}

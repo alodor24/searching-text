@@ -13,6 +13,39 @@ Esta es una pequeña aplicación desarrollada en **React** que permite realizar 
 Sigue estos pasos para ejecutar el proyecto en tu máquina:
 
 1. Clona el repositorio:
-   ```console
-   git clone https://github.com/alodor24/searching-text
-   ```
+
+```bash
+git clone https://github.com/alodor24/searching-text
+```
+
+2. Ve al directorio del proyecto:
+
+```bash
+cd searching-text
+```
+
+3. Instala las dependencias:
+
+```bash
+npm install
+```
+
+4. Inicia la aplicación:
+
+```bash
+npm run dev
+```
+
+5. Abre tu navegador y accede a:
+
+```bash
+http://localhost:5173
+```
+
+## 🚀 Demo
+
+Prueba la aplicación en vivo aquí: [demo](https://searching-text.vercel.app/)
+
+## 📸 Capturas de pantalla
+
+![Demo de la búsqueda en tiempo real](/src/assets/demo.png)

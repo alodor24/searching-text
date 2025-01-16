@@ -3,7 +3,7 @@ import SearchIcon from "../../assets/search-icon.svg";
 import useSearchTextContext from "../../context/SearchTextContext/useSearchTextContext";
 
 const Search = () => {
-  const { setSearchText } = useSearchTextContext();
+  const { setSearchText, count } = useSearchTextContext();
 
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) =>
     setSearchText(event.target.value);
@@ -17,6 +17,12 @@ const Search = () => {
         placeholder="Buscar texto"
         onChange={handleChange}
       />
+
+      {count > 0 && (
+        <span className="search__result">
+          {count > 1 ? `${count} resultados` : `${count} resultado`}
+        </span>
+      )}
     </div>
   );
 };

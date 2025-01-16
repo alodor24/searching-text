@@ -19,3 +19,11 @@
   border: none;
   box-shadow: 0 0.3rem 0.8rem rgba(0, 0, 0, 0.2);
 }
+
+.search__result {
+  display: block;
+  text-align: right;
+  margin-top: 0.5rem;
+  font-size: 0.7rem;
+  color: #777;
+}

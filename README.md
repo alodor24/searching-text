@@ -13,6 +13,6 @@ Esta es una pequeña aplicación desarrollada en **React** que permite realizar 
 Sigue estos pasos para ejecutar el proyecto en tu máquina:
 
 1. Clona el repositorio:
-   ```bash
+   ```console
    git clone https://github.com/alodor24/searching-text
    ```
